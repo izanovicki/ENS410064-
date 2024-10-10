@@ -49,16 +49,3 @@ plt.legend()
 plt.show()
 
 
-# Extrair as estatísticas de thetao
-thetao_stats = df['thetao'].describe()
-
-# Exibir as respostas de forma clara
-media = thetao_stats['mean']
-percentil_50 = thetao_stats['50%']
-percentil_25 = thetao_stats['25%']
-percentil_75 = thetao_stats['75%']
-
-# Exibir as respostas formatadas
-print(f"(a) A média da série de dados (thetao) é: {media:.3f}°C")
-print(f"(b) O valor do meio (percentil 50%) é: {percentil_50:.3f}°C")
-print(f"(c) A faixa de valores entre os percentis 25% e 75% é: {percentil_25:.3f}°C a {percentil_75:.3f}°C")
