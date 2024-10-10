@@ -41,3 +41,14 @@ plt.ylabel('Valor da variável')
 plt.title('Gráfico de linha com média e desvio padrão')
 plt.legend()
 plt.show()
+
+#(a) Qual a média da sua série de dados?
+
+#A média da variável thetao (temperatura potencial) é 21,759°C.
+
+#(b) Qual o valor do meio (percentil 50%)?
+
+#O valor do meio (percentil 50%) para a variável thetao é 22,500°C.
+#(c) Qual a faixa de valores entre os percentis 25% e 75%?
+
+A faixa de valores entre o percentil 25% e 75% para thetao é de 19,944°C a 24,229°C.
